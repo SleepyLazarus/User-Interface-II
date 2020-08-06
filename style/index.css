@@ -37,7 +37,7 @@ body{
     background-color: #0E131F;
 }
 
-a{
+.header a{
     background-color: #59546C;
     font-size: 3rem;
     text-decoration: none;
@@ -114,6 +114,12 @@ p{
     padding: 2%;
 }
 
+.quicklinks a{
+    border: 0;
+    background-color: rgba(240, 230, 140, 0);
+
+}
+
 .pl1{
     opacity: 20%;
     transition: opacity 1s ease-in-out;
@@ -149,13 +155,23 @@ footer{
 }
 
 .contactme a{
-    background-color:#59546C;
-    border-color: #8B939C;
-    color: #0E131F;
+    background-color: #59546C;
     font-size: 2rem;
+    text-decoration: none;
+    color: #0E131F;
+    margin: 0%;
+    padding: 0.5%;
+    border: 1px solid #8B939C;
+    font-family: 'Montserrat', sans-serif;
 }
 
-a:hover{
+.contactme a:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.menu a:hover{
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
@@ -165,6 +181,12 @@ a:hover{
     display:flex;
     align-items: center;
     justify-content: center;
+}
+
+.hyperlinks a:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .instagram{
