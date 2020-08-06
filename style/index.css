@@ -21,3 +21,169 @@ time, mark, audio, video {
 }
 /*Style Reset ^^*/
 
+*{
+    box-sizing:border-box;
+    border: 2px solid white;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #0E131F;
+}
+
+a{
+    background-color: #59546C;
+    font-size: 3rem;
+    text-decoration: none;
+    color: #0E131F;
+    margin: 0%;
+    padding: 0.5%;
+    border: 1px solid #8B939C;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color: #8B939C;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 4rem;
+}
+
+p{
+    color: #0E131F;
+    font-size: 2rem;
+}
+
+.title{
+    background-color: #38405F;
+    text-align: center;
+}
+
+.header{
+    padding-top: 3%;
+    text-align: center;
+}
+
+.menu{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.intro p{
+    background-color: #59546C;
+    padding: 0.5%;
+    border-radius: 10px;
+    margin-top: 1% ;
+    width: 75%;
+}
+
+.imgbanner{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/assets/lion.jpg);
+    width: 100%;
+    height: 500px;
+    margin-top: 2%;
+    opacity: 100%;
+}
+
+.bottombody{
+    display: flex;
+    width: 100%;
+}
+
+.quicklinks{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding: 2%;
+}
+
+.pl1{
+    opacity: 20%;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+
+.pl1:hover{
+    opacity: 100%;
+}
+
+
+.bottombody p{
+    background-color: #59546C;
+    padding: 0.5%;
+    border-radius: 10px;
+    margin: 10% ;
+    width: 10%;
+    height: 10%;
+}
+
+footer{
+    background-color: #38405F;
+    text-align: center;
+    height: 100px;
+}
+
+.contactme{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.5%;
+}
+
+.contactme a{
+    background-color:#59546C;
+    border-color: #8B939C;
+    color: #0E131F;
+    font-size: 2rem;
+}
+
+a:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.hyperlinks{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram{
+    background-color: #59546c00;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #0E131F;
+    margin: 0%;
+    padding: 0.5%;
+    border: 1px solid #8b939c00;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.twitch{
+    background-color: #59546c00;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #0E131F;
+    margin: 0%;
+    padding: 0.5%;
+    border: 1px solid #8b939c00;
+    font-family: 'Montserrat', sans-serif;
+}
