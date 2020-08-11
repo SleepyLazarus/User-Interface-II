@@ -37,12 +37,12 @@ body{
     background-color: #0E131F;
 }
 
+
 .header a{
-    background-color: #59546C;
     font-size: 3rem;
     text-decoration: none;
-    color: #0E131F;
-    margin: 0%;
+    color: #38405F;
+    margin: 0.75%;
     padding: 0.5%;
     border: 1px solid #8B939C;
     font-family: 'Montserrat', sans-serif;
@@ -291,6 +291,14 @@ footer{
 
     .hyperlinks{
         padding: 2%;
+    }
+
+    .twitch{
+        padding-left: 20px;
+    }
+
+    .instagram{
+        padding-right: 20pxs;
     }
 
 }
